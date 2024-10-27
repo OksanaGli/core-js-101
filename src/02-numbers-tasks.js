@@ -52,7 +52,7 @@ function getCircleCircumference(radius) {
  */
 function getAverage(value1, value2) {
   if (!Number.isFinite(value1) || !Number.isFinite(value2)) {
-    console.log('The values are not calculated');
+    return false;
   }
   if (value1 === Number.MAX_VALUE && value2 === Number.MAX_VALUE) {
     return Number.MAX_VALUE;
